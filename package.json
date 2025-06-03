@@ -2,11 +2,11 @@
   "name": "nodejs-express",
   "version": "1.0.0",
   "description": "A basic project crud operations in node js",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "node build/server.js",
-    "dev": "npx tsc -w & nodemon build/server.js"
+    "start": "node dist/server.js",
+    "dev": "npx tsc -w & nodemon server.js"
   },
   "repository": {
     "type": "git",

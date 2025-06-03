@@ -1,5 +1,3 @@
-//import allTodos from "../dummyData/data.json" with {type:"json"};
-
 const allTodos = [
   { todoId: 1, todoName: "Sports", todoDescription: "Go to the gym" },
   { todoId: 2, todoName: "Study", todoDescription: "Study for exam" },
