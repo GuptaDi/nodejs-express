@@ -4,10 +4,9 @@
   "description": "A basic project crud operations in node js",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc",
     "start": "node build/server.js",
-    "start-dev": "nodemon --env-file .env server.js"
+    "dev": "npx tsc -w & nodemon build/server.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,8 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
     "nodemon": "^3.1.10",
     "typescript": "^5.8.3"
   }

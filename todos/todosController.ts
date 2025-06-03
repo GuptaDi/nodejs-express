@@ -15,7 +15,7 @@ export const getTodos = () => {
   return allTodos;
 };
 
-export const getTodo = (id) => {
+export const getTodo = (id: number) => {
   const foundTodo = allTodos.find((todo) => todo.todoId === id);
 
   if (!foundTodo) {
@@ -24,7 +24,7 @@ export const getTodo = (id) => {
   return foundTodo;
 };
 
-export const deleteTodo = (id) => {
+export const deleteTodo = (id: number) => {
   const index = allTodos.findIndex((todo) => todo.todoId === id);
 
   if (index !== -1) {
@@ -45,7 +45,7 @@ export const addTodo = (todoName = "", todoDescription = "") => {
   return newTodo;
 };
 
-export const updateTodo = (todoName = "", todoDescription = "", id) => {
+export const updateTodo = (todoName = "", todoDescription = "", id: number) => {
   const todo = getTodo(id);
   if (todo) {
     todo.todoName = todoName;
