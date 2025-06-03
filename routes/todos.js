@@ -1,13 +1,7 @@
 import { Router } from "express";
+import data from "../dummyData/data.json" with {type:"json"};
 
-// In-memory data store for todos
-const allTodos = [
-  { todoId: 1, todoName: "Sports", todoDescription: "Go to the gym" },
-  { todoId: 2, todoName: "Study", todoDescription: "Study for exam" },
-  { todoId: 3, todoName: "Groceries Shopping", todoDescription: "Buy Milk" },
-  { todoId: 4, todoName: "Meditate", todoDescription: "Meditate 20 mins" },
-];
-
+const allTodos = data;
 const routes = Router();
 
 // Define the routes for this router

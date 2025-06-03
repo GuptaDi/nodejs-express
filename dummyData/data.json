@@ -1,0 +1,10 @@
+[
+  { "todoId": 1, "todoName": "Sports", "todoDescription": "Go to the gym" },
+  { "todoId": 2, "todoName": "Study", "todoDescription": "Study for exam" },
+  {
+    "todoId": 3,
+    "todoName": "Groceries Shopping",
+    "todoDescription": "Buy Milk"
+  },
+  { "todoId": 4, "todoName": "Meditate", "todoDescription": "Meditate 20 mins" }
+]
