@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/server.js",
-    "dev": "npx tsc -w & nodemon server.js"
+    "dev": "npx tsc -w & nodemon src/server.js"
   },
   "repository": {
     "type": "git",
