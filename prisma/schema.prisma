@@ -18,3 +18,9 @@ model testUser {
   id   Int    @id @default(autoincrement())
   name String
 }
+
+model todos {
+  todoId          Int    @id @default(autoincrement())
+  todoName        String
+  todoDescription String
+}
